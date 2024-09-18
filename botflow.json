@@ -120,8 +120,8 @@
         }
     },
     "S_TRANSFER": {
-        "sec": "0",
-        "fileName": "ok_great.wav",
+        "sec": "5.0",
+        "fileName": "transfer",
         "reb_state": false,
         "qq_state": false,
         "answering_machine ": {
@@ -158,15 +158,15 @@
         },
         "Not_Interested":{
             "fileName": "",
-            "next_state": "disp_NI"
+            "next_state": "S_TRANSFER_REB "
         },
         "BUSY":{
             "fileName" :"",
-            "next_state":"S_BUSY "
+            "next_state":"disp_CALLBK "
         },
         "decline":{
             "fileName" :"",
-            "next_state": "disp_XFER "
+            "next_state": "S_TRANSFER_REB "
         },
         "idk_decline":{
             "fileName":"",
